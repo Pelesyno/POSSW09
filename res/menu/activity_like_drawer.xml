@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/darLike"
+            android:icon="@drawable/ic_pets_black_24dp"
+            android:title="Dar Likes"/>
+        <item
+            android:id="@+id/nav_verLikes"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Ver Likes"/>
+
+        <item
+            android:id="@+id/nav_chat"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Chat"/>
+    </group>
+    <item android:title="Cadastros">
+        <menu>
+
+            <item
+                android:id="@+id/nav_adocao"
+                android:icon="@drawable/ic_loyalty_black_24dp"
+                android:title="Adoção"
+                />
+            <item
+                android:id="@+id/nav_hot"
+                android:icon="@drawable/ic_hotel_black_24dp"
+                android:title="Hoteis"
+                />
+            <item
+                android:id="@+id/nav_petshop"
+                android:icon="@drawable/ic_shopping_basket_black_24dp"
+                android:title="PetShop"
+                />
+            <item
+                android:id="@+id/nav_exit"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sair"
+                />
+        </menu>
+    </item>
+</menu>

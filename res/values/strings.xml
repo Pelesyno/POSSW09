@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">PeTinder</string>
+    <string name="senha">Senha</string>
+    <string name="usuario">Usuário</string>
+    <string name="logar">Entrar</string>
+    <string name="cad">Cadastrar-se</string>
+    <string name="chat">Chat</string>
+    <string name="tTelaCad">Cadastro de Usuário</string>
+    <string name="email">Email</string>
+    <string name="voltar">Voltar</string>
+    <string name="senhaConfirm">Confirmar Senha</string>
+    <string name="title_activity_like">PeTinder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">PeTinder</string>
+    <string name="nav_header_subtitle">Dê o seu Match!</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Chat fragment</string>
+    <string name="title_PetShop">Lojas de PetShop</string>
+    <string name="fone_Pet1">Fone: 3456-1212</string>
+    <string name="title_Pet1">Super PetShop</string>
+    <string name="end_Pet1">Rua das Casas, 000</string>
+    <string name="fone_Pet2">Fone: 3472-5033</string>
+    <string name="title_Pet2">PetShop Show</string>
+    <string name="end_Pet2">Rua das Pedreiras, 1212</string>
+    <string name="fone_Pet3">Fone: 3456-1212</string>
+    <string name="title_Pet3">Magnus PetShop</string>
+    <string name="end_Pet3">Rua das Casas, 000</string>
+    <string name="fone_Pet4">Fone: 3656-1565</string>
+    <string name="title_Pet4">Animale PetShop</string>
+    <string name="end_Pet4">Av. Brasil, 1234</string>
+    <string name="ado_o">Adoção</string>
+    <string name="msgChat">Digite uma Mensagem</string>
+    <string name="ou">ou</string>
+</resources>
