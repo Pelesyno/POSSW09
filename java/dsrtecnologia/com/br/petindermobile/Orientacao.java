@@ -1,6 +1,5 @@
 package dsrtecnologia.com.br.petindermobile;
 
-import android.app.Activity;
 import android.content.res.Configuration;
 
 public class Orientacao {
@@ -15,5 +14,4 @@ public class Orientacao {
             returnOrientation = "retrato";
         return returnOrientation;
     }
-
 }

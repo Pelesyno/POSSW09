@@ -16,9 +16,9 @@
         <item
             android:id="@+id/nav_chat"
             android:icon="@drawable/ic_menu_send"
-            android:title="Chat"/>
+            android:title="@string/chat"/>
     </group>
-    <item android:title="Cadastros">
+    <item android:title="">
         <menu>
 
             <item
@@ -34,7 +34,7 @@
             <item
                 android:id="@+id/nav_petshop"
                 android:icon="@drawable/ic_shopping_basket_black_24dp"
-                android:title="PetShop"
+                android:title="@string/title_PetShop"
                 />
             <item
                 android:id="@+id/nav_exit"

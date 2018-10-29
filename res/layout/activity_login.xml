@@ -46,7 +46,6 @@
                 android:layout_marginTop="15dp"
                 android:ems="10"
                 android:hint="@string/senha"
-                android:importantForAutofill="no"
                 android:inputType="textPassword"
                 android:paddingStart="15dp"
                 android:paddingLeft="15dp"
