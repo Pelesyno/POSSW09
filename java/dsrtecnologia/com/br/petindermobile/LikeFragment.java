@@ -19,10 +19,10 @@ public class LikeFragment extends Fragment {
 
         String orientation = Orientacao.verificarOrientacao(this);
 
-        if(orientation.equals("paisagem")){
-            View view = inflater.inflate(R.layout.fragment_like, container, false);
-        }else if(orientation.equals("retrato")){
-            View view = inflater.inflate(R.layout.fragment_like_retrato, container, false);
+        if(orientation.equals("retrato")){
+            view = inflater.inflate(R.layout.fragment_like, container, false);
+        }else if(orientation.equals("paisagem")){
+            view = inflater.inflate(R.layout.fragment_like_retrato, container, false);
         }
 
         Button b = view.findViewById(R.id.btnChat);

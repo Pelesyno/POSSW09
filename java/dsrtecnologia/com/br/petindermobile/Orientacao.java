@@ -5,7 +5,7 @@ import android.content.res.Configuration;
 
 public class Orientacao {
 
-    public static String verificarOrientacao(Activity activity){
+    public static String verificarOrientacao(LikeFragment activity){
         int orientacao = activity.getResources().getConfiguration().orientation;
         String returnOrientation="";
 

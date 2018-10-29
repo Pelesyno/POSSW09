@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Base64;
+import android.util.Patterns;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -34,13 +35,17 @@ public class Cadastro extends AppCompatActivity {
                 String confirmPassword = tConfirmPassword.getText().toString();
                 String email = tEmail.getText().toString();
                 if(username.equals("")){
-                    Toast.makeText(Cadastro.this,"Usuário não inserido, tente novamente!",Toast.LENGTH_SHORT).show();
+                    tUser.setError("Campo usuário não pode ser vazio!");
                 }else if (email.equals("")){
-                    Toast.makeText(Cadastro.this,"Email não inserido, tente novamente!",Toast.LENGTH_SHORT).show();
-                }else if(password.equals("") || confirmPassword.equals("")){
-                    Toast.makeText(Cadastro.this,"Deve inserir uma senha, tente novamente!",Toast.LENGTH_SHORT).show();
+                    tEmail.setError("Campo Email não pode ser vazio!");
+                }else if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()){
+                    tEmail.setError("Por favor informar um email valido");
+                }else if(password.equals("")){
+                    tPassword.setError("Campo senha não pode ser vazio!");
+                }else if(confirmPassword.equals("")){
+                    tConfirmPassword.setError("Campo Confirmar senha não pode ser vazio!");
                 }else if (!password.equals(confirmPassword)){
-                    Toast.makeText(Cadastro.this,"As senhas não são iguais, tente novamente!",Toast.LENGTH_SHORT).show();
+                    tConfirmPassword.setError("As senhas não são iguais, tente novamente!");
                 }else{
                     long res = db.Cadastrar(username, password, email);
                     if(res > 0){
